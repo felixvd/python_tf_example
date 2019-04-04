@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>tf2_example</name>
+  <version>0.0.0</version>
+  <description>A minimal example for tiny_tf conversion</description>
+
+  <maintainer email="f.drigalski@sinicx.com">Felix von Drigalski</maintainer>
+
+  <license>TODO</license>
+
+ 
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+  <run_depend>tf</run_depend>
+  <run_depend>tf2</run_depend>
+  <run_depend>tf_conversions</run_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf_conversions</build_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+</package>
